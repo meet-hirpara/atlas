@@ -2,25 +2,36 @@
 node_modules/
 .venv/
 venv/
+.uv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 
-# Build / cache
+# Build / cache / coverage
 frontend/dist/
 frontend/tsconfig.tsbuildinfo
 *.egg-info/
 dist/
 build/
+coverage/
+htmlcov/
+.coverage
+.coverage.*
+*.cover
 
 # Secrets & local data — DO NOT COMMIT
 .env
 .env.*
 !.env.example
+!**/.env.example
 *.db
+*.pem
+*.key
 backend/data/
+storage_config.json
+**/local_auth_token
 
 # OS / IDE
 .DS_Store

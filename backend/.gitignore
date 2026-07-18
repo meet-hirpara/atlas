@@ -1,8 +1,17 @@
 data/
 .venv/
 venv/
+.uv/
 data/uploads/
 
 .env
+.env.*
+!.env.example
 *.db
+*.pem
+storage_config.json
+local_auth_token
+coverage/
+htmlcov/
+.coverage
 
