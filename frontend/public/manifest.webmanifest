@@ -1,0 +1,17 @@
+{
+  "name": "Atlas",
+  "short_name": "Atlas",
+  "description": "Atlas chatbot — freelance, code, and research assistant",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#d97757",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
