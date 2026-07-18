@@ -1,6 +1,6 @@
 # Atlas
 
-Atlas is an AI chatbot for research, diagrams, workspace tools, and integrations. It pairs a FastAPI backend with a React frontend and stores data in SQLite by default.
+Atlas is an AI chatbot for research, diagrams, workspace tools, and integrations. It pairs a FastAPI backend with a React frontend and stores data in SQLite by default. Automated tests are not included in this published tree.
 
 ## Stack
 
@@ -91,7 +91,6 @@ Optional keys (Tavily, YouTube, etc.) are documented in `.env.example`.
 | `start-atlas.bat` | Start backend and frontend together |
 | `start-backend.bat` | Sync deps and run API on port 8000 |
 | `start-frontend.bat` | Run Vite dev server |
-| `cd backend && uv run pytest` | Run backend tests |
 | `cd frontend && npm run build` | Production frontend build |
 
 ## Auth

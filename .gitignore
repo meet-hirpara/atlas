@@ -33,6 +33,17 @@ backend/data/
 storage_config.json
 **/local_auth_token
 
+# Tests (local only — not published in the run-ready tree)
+backend/tests/
+**/tests/
+frontend/**/*.test.ts
+frontend/**/*.test.tsx
+frontend/**/*.spec.ts
+frontend/**/*.spec.tsx
+frontend/vitest.config.ts
+frontend/scripts/test-*.mts
+frontend/scripts/test-*.ts
+
 # OS / IDE
 .DS_Store
 Thumbs.db
